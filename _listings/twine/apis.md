@@ -12,11 +12,62 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Fulfillment
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/fulfillment/master/_listings/twine/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Twine - Create a reward earning fulfillment
+  x-api-slug: reward-earning-fulfillment-post
+  description: Create a reward earning fulfillment for a reward earning. There can
+    only be one fulfillment for each earning.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twinehealth.png
+  humanURL: http://twinehealth.com
+  baseURL: https://api.twinehealth.com//pub
+  tags: Wearables, Healthcare, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fulfillment/master/_listings/twine/reward-earning-fulfillment-post-openapi.md
+- name: Twine - Get a reward earning fulfillment
+  x-api-slug: reward-earning-fulfillmentid-get
+  description: Get a reward earning fulfillment record by id.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twinehealth.png
+  humanURL: http://twinehealth.com
+  baseURL: https://api.twinehealth.com//pub
+  tags: Wearables, Healthcare, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fulfillment/master/_listings/twine/reward-earning-fulfillmentid-get-openapi.md
+- name: Twine - List reward earning fulfillments
+  x-api-slug: reward-earning-fulfillment-get
+  description: Get a list of reward earning fulfillments matching the specified filters.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twinehealth.png
+  humanURL: http://twinehealth.com
+  baseURL: https://api.twinehealth.com//pub
+  tags: Wearables, Healthcare, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fulfillment/master/_listings/twine/reward-earning-fulfillment-get-openapi.md
+- name: Twine - List reward earning fulfillments
+  x-api-slug: reward-earning-fulfillment-get
+  description: Get a list of reward earning fulfillments matching the specified filters.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twinehealth.png
+  humanURL: http://twinehealth.com
+  baseURL: https://api.twinehealth.com//pub
+  tags: Wearables, Healthcare, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fulfillment/master/_listings/twine/reward-earning-fulfillment-get-openapi.md
+- name: Twine - List reward earning fulfillments
+  x-api-slug: reward-earning-fulfillment-get
+  description: Get a list of reward earning fulfillments matching the specified filters.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twinehealth.png
+  humanURL: http://twinehealth.com
+  baseURL: https://api.twinehealth.com//pub
+  tags: Wearables, Healthcare, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/fulfillment/master/_listings/twine/reward-earning-fulfillment-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://twilio.api.gallery.streamdata.io
